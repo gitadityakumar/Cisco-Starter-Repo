@@ -1,0 +1,22 @@
+.header {
+    /* height: 100%;
+    width: 100%;
+    background-color: rgba(28, 30, 79, 0.584);
+    padding:1px; */
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 0.5%;
+    box-shadow: 0 5px 15px 0 rgba(54, 150, 173, 0.434);
+    width: 99%;
+    height: 100%;
+    border-radius:10px;
+
+}
+
+.header h2 {
+    color: aquamarine;
+    text-align: start;
+    text-shadow: 3%;
+    padding-left: 3px;
+}
