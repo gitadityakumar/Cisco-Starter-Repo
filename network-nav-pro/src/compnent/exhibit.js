@@ -5,7 +5,7 @@ const Exhibit = () => {
   return (
     <div className="continer">
       <div className="Scard1">
-        <h2> Speed test </h2>
+        <h2> Speed Test </h2>
        
         <iframe
             className="speed-test-iframe"
@@ -17,7 +17,7 @@ const Exhibit = () => {
        
       </div>
       <div className="Scard2">
-        <h2> Network test </h2>
+        <h2> Network Test </h2>
         <p>
           Here We also know that these requirements are likely to change
           frequently in the future - and additional data points will need to be
