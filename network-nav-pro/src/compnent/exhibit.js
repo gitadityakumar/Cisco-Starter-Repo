@@ -1,5 +1,6 @@
 // import React from "react";
 import "./exhibit.css";
+import IPFetcherComponent from "./IPFetcherComponent";
 
 const Exhibit = () => {
   return (
@@ -19,12 +20,10 @@ const Exhibit = () => {
       <div className="Scard2">
         <h2> Network Test </h2>
         <p>
-          Here We also know that these requirements are likely to change
-          frequently in the future - and additional data points will need to be
-          displayed. While we don't know what these data points will be, we can
-          prepare for them by investing in the extensibility of our site. 
-          
+          {/* Display IP addresses fetched by IPFetcherComponent */}
+          <IPFetcherComponent />
         </p>
+        
       </div>
     </div>
   );

@@ -1,0 +1,26 @@
+/* IPFetcherComponent.css */
+
+.ip-address-container {
+    text-align: center;
+    margin-top: -20px;
+    background-color:rgb(43, 51, 83);
+    border: solid 1px rgb(21, 233, 226);
+    border-radius: 15px;
+    box-shadow: 5px 4px 2px 0px rgba(74, 196, 192, 0.902);
+    
+  }
+  
+  .ipv4 {
+    color: #4287f5;
+    font-size: 18px;
+   
+  }
+  
+  .ipv6 {
+    color: #ff9900;
+    font-size: 18px;
+   
+  }
+  
+  /* You can adjust colors, font sizes, margins, and other styles as needed */
+  
