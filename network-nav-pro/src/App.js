@@ -4,11 +4,13 @@ import Banner from './compnent/banner';
 import Exhibit from './compnent/exhibit';
 
 
+
 function App() {
   return (
     <div className='App'>
       <Banner/>
       <Exhibit />
+      
     </div>
  
   );

@@ -4,15 +4,19 @@ import "./exhibit.css";
 const Exhibit = () => {
   return (
     <div className="continer">
-      <div className="Scard">
+      <div className="Scard1">
         <h2> Speed test </h2>
-        <p>
-          Here a internet speed test meter , ip of user , latency , jitter,will
-          be available <br /> We know that the site needs to display two primary
-          data points: the user's public IP and latency metrics.
-        </p>
+       
+        <iframe
+            className="speed-test-iframe"
+            title="Speed Test Iframe"
+            src="//openspeedtest.com/speedtest"
+          />
+      
+        
+       
       </div>
-      <div className="Scard">
+      <div className="Scard2">
         <h2> Network test </h2>
         <p>
           Here We also know that these requirements are likely to change
