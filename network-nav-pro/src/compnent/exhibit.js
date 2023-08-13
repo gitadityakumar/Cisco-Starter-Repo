@@ -5,7 +5,7 @@ const Exhibit = () => {
   return (
     <div className="continer">
       <div className="Scard">
-        <h2> speed test </h2>
+        <h2> Speed test </h2>
         <p>
           Here a internet speed test meter , ip of user , latency , jitter,will
           be available <br /> We know that the site needs to display two primary
@@ -13,7 +13,7 @@ const Exhibit = () => {
         </p>
       </div>
       <div className="Scard">
-        <h2> speed test </h2>
+        <h2> Network test </h2>
         <p>
           Here We also know that these requirements are likely to change
           frequently in the future - and additional data points will need to be

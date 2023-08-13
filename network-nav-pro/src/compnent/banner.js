@@ -6,9 +6,7 @@ const Banner = () => {
 
     return (
         <div className='header'>
-            <h2>
-            NetworkNav Pro
-            </h2>
+            <div className="glitch" data-text="NetwrokNavPro">NetwrokNavPro</div>
         </div>
     );
 }
