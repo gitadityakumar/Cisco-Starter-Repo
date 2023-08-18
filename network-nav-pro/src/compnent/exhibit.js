@@ -14,17 +14,15 @@ const Exhibit = () => {
             src="//openspeedtest.com/speedtest"
           />
       
-        
-       
       </div>
       <div className="Scard2">
         <h2> Network Test </h2>
         <p>
           {/* Display IP addresses fetched by IPFetcherComponent */}
           <IPFetcherComponent />
-        </p>
-        
+        </p>  
       </div>
+      
     </div>
   );
 };

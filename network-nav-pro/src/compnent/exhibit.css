@@ -3,11 +3,14 @@
     height: 90%;
     width: 90%;
     gap: 80px;
-    margin-top: 50px;
-    margin-left: 60px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
 }
+
+/* this is for different screens */
 
 
 
