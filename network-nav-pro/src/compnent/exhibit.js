@@ -1,6 +1,7 @@
 // import React from "react";
 import "./exhibit.css";
 import IPFetcherComponent from "./IPFetcherComponent";
+import PacketLatencyComponent from "./PacketLatencyComponent";
 
 const Exhibit = () => {
   return (
@@ -23,6 +24,7 @@ const Exhibit = () => {
           {/* Display IP addresses fetched by IPFetcherComponent */}
           <IPFetcherComponent />
         </p>
+        <PacketLatencyComponent />
         
       </div>
     </div>

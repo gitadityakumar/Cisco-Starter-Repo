@@ -1,0 +1,15 @@
+{
+  "name": "pylon",
+  "version": "1.0.0",
+  "description": "server of network-nav-pro",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
+}
